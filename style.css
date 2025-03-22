@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    /* background: linear-gradient(180deg,rgb(83, 140, 239)0%,rgb(23, 58, 156)); */
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    color:black;
+    gap: 10px;
+}
+img{
+    width: 500px;
+    height: 450px;
+}
+#button{
+    width: 200px;
+    height: 60px;
+    background-color:royalblue;
+    font-size: 19px;
+    line-height: 55px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow:  3px 3px 3px 3px black;
+}
+
+#country, #weather, #city{
+    font-size: 35px;
+    line-height: 35px;
+}
+/* #country{
+    margin-top: 10px;
+} */
